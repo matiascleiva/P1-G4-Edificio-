@@ -1,0 +1,767 @@
+[
+  {
+    "nodeTag": 1,
+    "x": 777.1,
+    "y": 5157.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=777, Y=5158)"
+  },
+  {
+    "nodeTag": 2,
+    "x": 777.1,
+    "y": 6085.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=777, Y=6085)"
+  },
+  {
+    "nodeTag": 3,
+    "x": 777.1,
+    "y": 6870.4,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=777, Y=6870)"
+  },
+  {
+    "nodeTag": 4,
+    "x": 802.1,
+    "y": 4795.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje E-3"
+  },
+  {
+    "nodeTag": 5,
+    "x": 802.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje E-2"
+  },
+  {
+    "nodeTag": 6,
+    "x": 802.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje E-1"
+  },
+  {
+    "nodeTag": 7,
+    "x": 819.6,
+    "y": 7275.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=820, Y=7276)"
+  },
+  {
+    "nodeTag": 8,
+    "x": 1028.4,
+    "y": 6450.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1028, Y=6450)"
+  },
+  {
+    "nodeTag": 9,
+    "x": 1129.6,
+    "y": 5109.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1130, Y=5110)"
+  },
+  {
+    "nodeTag": 10,
+    "x": 1157.1,
+    "y": 5912.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1157, Y=5913)"
+  },
+  {
+    "nodeTag": 11,
+    "x": 1239.7,
+    "y": 7275.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1240, Y=7276)"
+  },
+  {
+    "nodeTag": 12,
+    "x": 1302.1,
+    "y": 4775.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1302, Y=4775)"
+  },
+  {
+    "nodeTag": 13,
+    "x": 1302.1,
+    "y": 5025.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1302, Y=5026)"
+  },
+  {
+    "nodeTag": 14,
+    "x": 1302.1,
+    "y": 6020.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1302, Y=6020)"
+  },
+  {
+    "nodeTag": 15,
+    "x": 1447.1,
+    "y": 5912.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1447, Y=5913)"
+  },
+  {
+    "nodeTag": 16,
+    "x": 1474.6,
+    "y": 5109.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1475, Y=5110)"
+  },
+  {
+    "nodeTag": 17,
+    "x": 1479.7,
+    "y": 7275.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1480, Y=7276)"
+  },
+  {
+    "nodeTag": 18,
+    "x": 1608.4,
+    "y": 6435.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1608, Y=6435)"
+  },
+  {
+    "nodeTag": 19,
+    "x": 1802.1,
+    "y": 4777.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Apoyo mural eje F (Y=4778)"
+  },
+  {
+    "nodeTag": 20,
+    "x": 1802.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje F-2"
+  },
+  {
+    "nodeTag": 21,
+    "x": 1802.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje F-1"
+  },
+  {
+    "nodeTag": 22,
+    "x": 1822.1,
+    "y": 5157.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1822, Y=5158)"
+  },
+  {
+    "nodeTag": 23,
+    "x": 1822.1,
+    "y": 5965.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=1822, Y=5965)"
+  },
+  {
+    "nodeTag": 24,
+    "x": 2203.4,
+    "y": 6470.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=2203, Y=6470)"
+  },
+  {
+    "nodeTag": 25,
+    "x": 2347.1,
+    "y": 7275.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=2347, Y=7276)"
+  },
+  {
+    "nodeTag": 26,
+    "x": 2802.1,
+    "y": 4795.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje G-3"
+  },
+  {
+    "nodeTag": 27,
+    "x": 2802.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje G-2"
+  },
+  {
+    "nodeTag": 28,
+    "x": 2802.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje G-1"
+  },
+  {
+    "nodeTag": 29,
+    "x": 2942.1,
+    "y": 6880.4,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=2942, Y=6880)"
+  },
+  {
+    "nodeTag": 30,
+    "x": 3802.1,
+    "y": 4795.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje H-3"
+  },
+  {
+    "nodeTag": 31,
+    "x": 3802.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje H-2"
+  },
+  {
+    "nodeTag": 32,
+    "x": 3802.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje H-1"
+  },
+  {
+    "nodeTag": 33,
+    "x": 4249.8,
+    "y": 3576.5,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4250, Y=3576)"
+  },
+  {
+    "nodeTag": 34,
+    "x": 4249.8,
+    "y": 4047.7,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4250, Y=4048)"
+  },
+  {
+    "nodeTag": 35,
+    "x": 4249.8,
+    "y": 4518.9,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4250, Y=4519)"
+  },
+  {
+    "nodeTag": 36,
+    "x": 4302.1,
+    "y": 6430.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4302, Y=6430)"
+  },
+  {
+    "nodeTag": 37,
+    "x": 4510.4,
+    "y": 6622.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4510, Y=6623)"
+  },
+  {
+    "nodeTag": 38,
+    "x": 4701.4,
+    "y": 7032.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4701, Y=7033)"
+  },
+  {
+    "nodeTag": 39,
+    "x": 4751.8,
+    "y": 6462.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4752, Y=6463)"
+  },
+  {
+    "nodeTag": 40,
+    "x": 4812.1,
+    "y": 4795.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Apoyo mural nivel 3 (X=4812)"
+  },
+  {
+    "nodeTag": 41,
+    "x": 4812.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Apoyo mural nivel 2 (X=4812)"
+  },
+  {
+    "nodeTag": 42,
+    "x": 4812.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Apoyo mural nivel 1 (X=4812)"
+  },
+  {
+    "nodeTag": 43,
+    "x": 4817.1,
+    "y": 4267.8,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4817, Y=4268)"
+  },
+  {
+    "nodeTag": 44,
+    "x": 4817.1,
+    "y": 5157.6,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4817, Y=5158)"
+  },
+  {
+    "nodeTag": 45,
+    "x": 4817.1,
+    "y": 5965.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4817, Y=5965)"
+  },
+  {
+    "nodeTag": 46,
+    "x": 4837.1,
+    "y": 4748.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=4837, Y=4748)"
+  },
+  {
+    "nodeTag": 47,
+    "x": 5052.1,
+    "y": 6430.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=5052, Y=6430)"
+  },
+  {
+    "nodeTag": 48,
+    "x": 5204.3,
+    "y": 7007.7,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Muro/nucleo (X=5204, Y=7008)"
+  },
+  {
+    "nodeTag": 49,
+    "x": 5302.1,
+    "y": 4795.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje I'-3"
+  },
+  {
+    "nodeTag": 50,
+    "x": 5302.1,
+    "y": 5520.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje I'-2"
+  },
+  {
+    "nodeTag": 51,
+    "x": 5302.1,
+    "y": 6410.1,
+    "z": 0.0,
+    "restraints": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "descripcion": "Columna eje I'-1"
+  }
+]

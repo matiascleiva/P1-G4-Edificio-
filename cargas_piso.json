@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "unidades": "kN, m, kg",
+    "plano_fuente_espesor": "Planta Cielo 1° Subterráneo (2017-67-101) - LOSA e=15 cm",
+    "plano_fuente_cargas": "Planta de Cargas (2017-67-700)",
+    "nota": "q_G = PP losa + PM adic + SC (carga superficial total distribuida a las vigas)"
+  },
+  "losa": {
+    "espesor_m": 0.15,
+    "peso_unitario_kg_m3": 2500,
+    "peso_unitario_kN_m3": 24.5,
+    "pp_losa_kN_m2": 3.675
+  },
+  "cargas": {
+    "pm_adic_kg_m2": 260,
+    "pm_adic_kN_m2": 2.55,
+    "sc_kg_m2": 400,
+    "sc_kN_m2": 3.92,
+    "nota_sc": "Zona representativa 1° Subterráneo (SC=400 kg/m²); otras zonas 200-500 kg/m²"
+  },
+  "qG_kN_m2": 10.15,
+  "a_piso_m2": 726.75,
+  "nivel": "1° Subterráneo (Planata Cielo)",
+  "z_nivel_m": 3.96
+}

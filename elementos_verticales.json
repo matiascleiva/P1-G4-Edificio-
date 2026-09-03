@@ -1,0 +1,461 @@
+[
+  {
+    "elementTag": 1,
+    "type": "muro",
+    "iNode": 1,
+    "jNode": 1001,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=777, Y=5158)"
+  },
+  {
+    "elementTag": 2,
+    "type": "muro",
+    "iNode": 2,
+    "jNode": 1002,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=777, Y=6085)"
+  },
+  {
+    "elementTag": 3,
+    "type": "muro",
+    "iNode": 3,
+    "jNode": 1003,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=777, Y=6870)"
+  },
+  {
+    "elementTag": 4,
+    "type": "columna",
+    "iNode": 4,
+    "jNode": 1004,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje E-3"
+  },
+  {
+    "elementTag": 5,
+    "type": "columna",
+    "iNode": 5,
+    "jNode": 1005,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje E-2"
+  },
+  {
+    "elementTag": 6,
+    "type": "columna",
+    "iNode": 6,
+    "jNode": 1006,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje E-1"
+  },
+  {
+    "elementTag": 7,
+    "type": "muro",
+    "iNode": 7,
+    "jNode": 1007,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=820, Y=7276)"
+  },
+  {
+    "elementTag": 8,
+    "type": "muro",
+    "iNode": 8,
+    "jNode": 1008,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1028, Y=6450)"
+  },
+  {
+    "elementTag": 9,
+    "type": "muro",
+    "iNode": 9,
+    "jNode": 1009,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1130, Y=5110)"
+  },
+  {
+    "elementTag": 10,
+    "type": "muro",
+    "iNode": 10,
+    "jNode": 1010,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1157, Y=5913)"
+  },
+  {
+    "elementTag": 11,
+    "type": "muro",
+    "iNode": 11,
+    "jNode": 1011,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1240, Y=7276)"
+  },
+  {
+    "elementTag": 12,
+    "type": "muro",
+    "iNode": 12,
+    "jNode": 1012,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1302, Y=4775)"
+  },
+  {
+    "elementTag": 13,
+    "type": "muro",
+    "iNode": 13,
+    "jNode": 1013,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1302, Y=5026)"
+  },
+  {
+    "elementTag": 14,
+    "type": "muro",
+    "iNode": 14,
+    "jNode": 1014,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1302, Y=6020)"
+  },
+  {
+    "elementTag": 15,
+    "type": "muro",
+    "iNode": 15,
+    "jNode": 1015,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1447, Y=5913)"
+  },
+  {
+    "elementTag": 16,
+    "type": "muro",
+    "iNode": 16,
+    "jNode": 1016,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1475, Y=5110)"
+  },
+  {
+    "elementTag": 17,
+    "type": "muro",
+    "iNode": 17,
+    "jNode": 1017,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1480, Y=7276)"
+  },
+  {
+    "elementTag": 18,
+    "type": "muro",
+    "iNode": 18,
+    "jNode": 1018,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1608, Y=6435)"
+  },
+  {
+    "elementTag": 19,
+    "type": "columna",
+    "iNode": 19,
+    "jNode": 1019,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Apoyo mural eje F (Y=4778)"
+  },
+  {
+    "elementTag": 20,
+    "type": "columna",
+    "iNode": 20,
+    "jNode": 1020,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje F-2"
+  },
+  {
+    "elementTag": 21,
+    "type": "columna",
+    "iNode": 21,
+    "jNode": 1021,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje F-1"
+  },
+  {
+    "elementTag": 22,
+    "type": "muro",
+    "iNode": 22,
+    "jNode": 1022,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1822, Y=5158)"
+  },
+  {
+    "elementTag": 23,
+    "type": "muro",
+    "iNode": 23,
+    "jNode": 1023,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=1822, Y=5965)"
+  },
+  {
+    "elementTag": 24,
+    "type": "muro",
+    "iNode": 24,
+    "jNode": 1024,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=2203, Y=6470)"
+  },
+  {
+    "elementTag": 25,
+    "type": "muro",
+    "iNode": 25,
+    "jNode": 1025,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=2347, Y=7276)"
+  },
+  {
+    "elementTag": 26,
+    "type": "columna",
+    "iNode": 26,
+    "jNode": 1026,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje G-3"
+  },
+  {
+    "elementTag": 27,
+    "type": "columna",
+    "iNode": 27,
+    "jNode": 1027,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje G-2"
+  },
+  {
+    "elementTag": 28,
+    "type": "columna",
+    "iNode": 28,
+    "jNode": 1028,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje G-1"
+  },
+  {
+    "elementTag": 29,
+    "type": "muro",
+    "iNode": 29,
+    "jNode": 1029,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=2942, Y=6880)"
+  },
+  {
+    "elementTag": 30,
+    "type": "columna",
+    "iNode": 30,
+    "jNode": 1030,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje H-3"
+  },
+  {
+    "elementTag": 31,
+    "type": "columna",
+    "iNode": 31,
+    "jNode": 1031,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje H-2"
+  },
+  {
+    "elementTag": 32,
+    "type": "columna",
+    "iNode": 32,
+    "jNode": 1032,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje H-1"
+  },
+  {
+    "elementTag": 33,
+    "type": "muro",
+    "iNode": 33,
+    "jNode": 1033,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4250, Y=3576)"
+  },
+  {
+    "elementTag": 34,
+    "type": "muro",
+    "iNode": 34,
+    "jNode": 1034,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4250, Y=4048)"
+  },
+  {
+    "elementTag": 35,
+    "type": "muro",
+    "iNode": 35,
+    "jNode": 1035,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4250, Y=4519)"
+  },
+  {
+    "elementTag": 36,
+    "type": "muro",
+    "iNode": 36,
+    "jNode": 1036,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4302, Y=6430)"
+  },
+  {
+    "elementTag": 37,
+    "type": "muro",
+    "iNode": 37,
+    "jNode": 1037,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4510, Y=6623)"
+  },
+  {
+    "elementTag": 38,
+    "type": "muro",
+    "iNode": 38,
+    "jNode": 1038,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4701, Y=7033)"
+  },
+  {
+    "elementTag": 39,
+    "type": "muro",
+    "iNode": 39,
+    "jNode": 1039,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4752, Y=6463)"
+  },
+  {
+    "elementTag": 40,
+    "type": "columna",
+    "iNode": 40,
+    "jNode": 1040,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Apoyo mural nivel 3 (X=4812)"
+  },
+  {
+    "elementTag": 41,
+    "type": "columna",
+    "iNode": 41,
+    "jNode": 1041,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Apoyo mural nivel 2 (X=4812)"
+  },
+  {
+    "elementTag": 42,
+    "type": "columna",
+    "iNode": 42,
+    "jNode": 1042,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Apoyo mural nivel 1 (X=4812)"
+  },
+  {
+    "elementTag": 43,
+    "type": "muro",
+    "iNode": 43,
+    "jNode": 1043,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4817, Y=4268)"
+  },
+  {
+    "elementTag": 44,
+    "type": "muro",
+    "iNode": 44,
+    "jNode": 1044,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4817, Y=5158)"
+  },
+  {
+    "elementTag": 45,
+    "type": "muro",
+    "iNode": 45,
+    "jNode": 1045,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4817, Y=5965)"
+  },
+  {
+    "elementTag": 46,
+    "type": "muro",
+    "iNode": 46,
+    "jNode": 1046,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=4837, Y=4748)"
+  },
+  {
+    "elementTag": 47,
+    "type": "muro",
+    "iNode": 47,
+    "jNode": 1047,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=5052, Y=6430)"
+  },
+  {
+    "elementTag": 48,
+    "type": "muro",
+    "iNode": 48,
+    "jNode": 1048,
+    "sectionTag": 200,
+    "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+    "descripcion": "Muro/nucleo (X=5204, Y=7008)"
+  },
+  {
+    "elementTag": 49,
+    "type": "columna",
+    "iNode": 49,
+    "jNode": 1049,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje I'-3"
+  },
+  {
+    "elementTag": 50,
+    "type": "columna",
+    "iNode": 50,
+    "jNode": 1050,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje I'-2"
+  },
+  {
+    "elementTag": 51,
+    "type": "columna",
+    "iNode": 51,
+    "jNode": 1051,
+    "sectionTag": 100,
+    "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+    "descripcion": "Columna eje I'-1"
+  }
+]

@@ -1,0 +1,2273 @@
+{
+  "_meta": {
+    "tipo": "Esfuerzos internos por elemento (análisis estático gravitacional)",
+    "respuesta": "eleResponse(tag, 'localForces')",
+    "unidades": "N y V en kN; M y T en kN·m",
+    "n_verticales": 51,
+    "n_vigas": 27
+  },
+  "elementos": [
+    {
+      "elementTag": 1,
+      "type": "muro",
+      "iNode": 1,
+      "jNode": 1001,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=777, Y=5158)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.055,
+        "Vz": -0.766,
+        "My": 3.033,
+        "Mz": -0.218
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.055,
+        "Vz": 0.766,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.055,
+      "Vz_kN": -0.766,
+      "My_kNm": 3.033,
+      "Mz_kNm": 0.218,
+      "Mmax_flector_kNm": 3.033
+    },
+    {
+      "elementTag": 2,
+      "type": "muro",
+      "iNode": 2,
+      "jNode": 1002,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=777, Y=6085)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.055,
+        "Vz": -0.704,
+        "My": 2.787,
+        "Mz": -0.218
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.055,
+        "Vz": 0.704,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.055,
+      "Vz_kN": -0.704,
+      "My_kNm": 2.787,
+      "Mz_kNm": 0.218,
+      "Mmax_flector_kNm": 2.787
+    },
+    {
+      "elementTag": 3,
+      "type": "muro",
+      "iNode": 3,
+      "jNode": 1003,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=777, Y=6870)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.055,
+        "Vz": -0.651,
+        "My": 2.58,
+        "Mz": -0.218
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.055,
+        "Vz": 0.651,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.055,
+      "Vz_kN": -0.651,
+      "My_kNm": 2.58,
+      "Mz_kNm": 0.218,
+      "Mmax_flector_kNm": 2.58
+    },
+    {
+      "elementTag": 4,
+      "type": "columna",
+      "iNode": 4,
+      "jNode": 1004,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje E-3",
+      "extremo_i": {
+        "P": 165.345,
+        "Vy": -28.875,
+        "Vz": 42.335,
+        "My": -53.379,
+        "Mz": -42.474
+      },
+      "extremo_j": {
+        "P": -165.345,
+        "Vy": 28.875,
+        "Vz": -42.335,
+        "My": -114.269,
+        "Mz": -71.869
+      },
+      "P_kN": 165.345,
+      "Vy_kN": -28.875,
+      "Vz_kN": 42.335,
+      "My_kNm": 114.269,
+      "Mz_kNm": 71.869,
+      "Mmax_flector_kNm": 114.269
+    },
+    {
+      "elementTag": 5,
+      "type": "columna",
+      "iNode": 5,
+      "jNode": 1005,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje E-2",
+      "extremo_i": {
+        "P": 415.713,
+        "Vy": -17.443,
+        "Vz": 80.149,
+        "My": -103.446,
+        "Mz": -27.385
+      },
+      "extremo_j": {
+        "P": -415.713,
+        "Vy": 17.443,
+        "Vz": -80.149,
+        "My": -213.943,
+        "Mz": -41.689
+      },
+      "P_kN": 415.713,
+      "Vy_kN": -17.443,
+      "Vz_kN": 80.149,
+      "My_kNm": 213.943,
+      "Mz_kNm": 41.689,
+      "Mmax_flector_kNm": 213.943
+    },
+    {
+      "elementTag": 6,
+      "type": "columna",
+      "iNode": 6,
+      "jNode": 1006,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje E-1",
+      "extremo_i": {
+        "P": 207.843,
+        "Vy": 42.513,
+        "Vz": 49.961,
+        "My": -63.787,
+        "Mz": 51.757
+      },
+      "extremo_j": {
+        "P": -207.843,
+        "Vy": -42.513,
+        "Vz": -49.961,
+        "My": -134.059,
+        "Mz": 116.593
+      },
+      "P_kN": 207.843,
+      "Vy_kN": 42.513,
+      "Vz_kN": 49.961,
+      "My_kNm": 134.059,
+      "Mz_kNm": 116.593,
+      "Mmax_flector_kNm": 134.059
+    },
+    {
+      "elementTag": 7,
+      "type": "muro",
+      "iNode": 7,
+      "jNode": 1007,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=820, Y=7276)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.055,
+        "Vz": -0.624,
+        "My": 2.472,
+        "Mz": -0.218
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.055,
+        "Vz": 0.624,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.055,
+      "Vz_kN": -0.624,
+      "My_kNm": 2.472,
+      "Mz_kNm": 0.218,
+      "Mmax_flector_kNm": 2.472
+    },
+    {
+      "elementTag": 8,
+      "type": "muro",
+      "iNode": 8,
+      "jNode": 1008,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1028, Y=6450)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.679,
+        "My": 2.691,
+        "Mz": -0.216
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.679,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.679,
+      "My_kNm": 2.691,
+      "Mz_kNm": 0.216,
+      "Mmax_flector_kNm": 2.691
+    },
+    {
+      "elementTag": 9,
+      "type": "muro",
+      "iNode": 9,
+      "jNode": 1009,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1130, Y=5110)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.769,
+        "My": 3.045,
+        "Mz": -0.215
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.769,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.769,
+      "My_kNm": 3.045,
+      "Mz_kNm": 0.215,
+      "Mmax_flector_kNm": 3.045
+    },
+    {
+      "elementTag": 10,
+      "type": "muro",
+      "iNode": 10,
+      "jNode": 1010,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1157, Y=5913)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.715,
+        "My": 2.833,
+        "Mz": -0.214
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.715,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.715,
+      "My_kNm": 2.833,
+      "Mz_kNm": 0.214,
+      "Mmax_flector_kNm": 2.833
+    },
+    {
+      "elementTag": 11,
+      "type": "muro",
+      "iNode": 11,
+      "jNode": 1011,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1240, Y=7276)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.624,
+        "My": 2.472,
+        "Mz": -0.213
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.624,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.624,
+      "My_kNm": 2.472,
+      "Mz_kNm": 0.213,
+      "Mmax_flector_kNm": 2.472
+    },
+    {
+      "elementTag": 12,
+      "type": "muro",
+      "iNode": 12,
+      "jNode": 1012,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1302, Y=4775)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.791,
+        "My": 3.134,
+        "Mz": -0.213
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.791,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.791,
+      "My_kNm": 3.134,
+      "Mz_kNm": 0.213,
+      "Mmax_flector_kNm": 3.134
+    },
+    {
+      "elementTag": 13,
+      "type": "muro",
+      "iNode": 13,
+      "jNode": 1013,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1302, Y=5026)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.775,
+        "My": 3.067,
+        "Mz": -0.213
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.775,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.775,
+      "My_kNm": 3.067,
+      "Mz_kNm": 0.213,
+      "Mmax_flector_kNm": 3.067
+    },
+    {
+      "elementTag": 14,
+      "type": "muro",
+      "iNode": 14,
+      "jNode": 1014,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1302, Y=6020)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.054,
+        "Vz": -0.708,
+        "My": 2.804,
+        "Mz": -0.213
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.054,
+        "Vz": 0.708,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.054,
+      "Vz_kN": -0.708,
+      "My_kNm": 2.804,
+      "Mz_kNm": 0.213,
+      "Mmax_flector_kNm": 2.804
+    },
+    {
+      "elementTag": 15,
+      "type": "muro",
+      "iNode": 15,
+      "jNode": 1015,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1447, Y=5913)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.053,
+        "Vz": -0.715,
+        "My": 2.833,
+        "Mz": -0.211
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.053,
+        "Vz": 0.715,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.053,
+      "Vz_kN": -0.715,
+      "My_kNm": 2.833,
+      "Mz_kNm": 0.211,
+      "Mmax_flector_kNm": 2.833
+    },
+    {
+      "elementTag": 16,
+      "type": "muro",
+      "iNode": 16,
+      "jNode": 1016,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1475, Y=5110)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.053,
+        "Vz": -0.769,
+        "My": 3.045,
+        "Mz": -0.211
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.053,
+        "Vz": 0.769,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.053,
+      "Vz_kN": -0.769,
+      "My_kNm": 3.045,
+      "Mz_kNm": 0.211,
+      "Mmax_flector_kNm": 3.045
+    },
+    {
+      "elementTag": 17,
+      "type": "muro",
+      "iNode": 17,
+      "jNode": 1017,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1480, Y=7276)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.053,
+        "Vz": -0.624,
+        "My": 2.472,
+        "Mz": -0.211
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.053,
+        "Vz": 0.624,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.053,
+      "Vz_kN": -0.624,
+      "My_kNm": 2.472,
+      "Mz_kNm": 0.211,
+      "Mmax_flector_kNm": 2.472
+    },
+    {
+      "elementTag": 18,
+      "type": "muro",
+      "iNode": 18,
+      "jNode": 1018,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1608, Y=6435)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.053,
+        "Vz": -0.68,
+        "My": 2.695,
+        "Mz": -0.209
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.053,
+        "Vz": 0.68,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.053,
+      "Vz_kN": -0.68,
+      "My_kNm": 2.695,
+      "Mz_kNm": 0.209,
+      "Mmax_flector_kNm": 2.695
+    },
+    {
+      "elementTag": 19,
+      "type": "columna",
+      "iNode": 19,
+      "jNode": 1019,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Apoyo mural eje F (Y=4778)",
+      "extremo_i": {
+        "P": 359.086,
+        "Vy": -54.068,
+        "Vz": -8.253,
+        "My": 13.401,
+        "Mz": -75.518
+      },
+      "extremo_j": {
+        "P": -359.086,
+        "Vy": 54.068,
+        "Vz": 8.253,
+        "My": 19.279,
+        "Mz": -138.592
+      },
+      "P_kN": 359.086,
+      "Vy_kN": -54.068,
+      "Vz_kN": -8.253,
+      "My_kNm": 19.279,
+      "Mz_kNm": 138.592,
+      "Mmax_flector_kNm": 138.592
+    },
+    {
+      "elementTag": 20,
+      "type": "columna",
+      "iNode": 20,
+      "jNode": 1020,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje F-2",
+      "extremo_i": {
+        "P": 876.117,
+        "Vy": -25.529,
+        "Vz": -11.48,
+        "My": 17.503,
+        "Mz": -37.846
+      },
+      "extremo_j": {
+        "P": -876.117,
+        "Vy": 25.529,
+        "Vz": 11.48,
+        "My": 27.956,
+        "Mz": -63.247
+      },
+      "P_kN": 876.117,
+      "Vy_kN": -25.529,
+      "Vz_kN": -11.48,
+      "My_kNm": 27.956,
+      "Mz_kNm": 63.247,
+      "Mmax_flector_kNm": 63.247
+    },
+    {
+      "elementTag": 21,
+      "type": "columna",
+      "iNode": 21,
+      "jNode": 1021,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje F-1",
+      "extremo_i": {
+        "P": 445.981,
+        "Vy": 80.106,
+        "Vz": -8.561,
+        "My": 13.463,
+        "Mz": 101.592
+      },
+      "extremo_j": {
+        "P": -445.981,
+        "Vy": -80.106,
+        "Vz": 8.561,
+        "My": 20.44,
+        "Mz": 215.628
+      },
+      "P_kN": 445.981,
+      "Vy_kN": 80.106,
+      "Vz_kN": -8.561,
+      "My_kNm": 20.44,
+      "Mz_kNm": 215.628,
+      "Mmax_flector_kNm": 215.628
+    },
+    {
+      "elementTag": 22,
+      "type": "muro",
+      "iNode": 22,
+      "jNode": 1022,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1822, Y=5158)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.052,
+        "Vz": -0.766,
+        "My": 3.033,
+        "Mz": -0.207
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.052,
+        "Vz": 0.766,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.052,
+      "Vz_kN": -0.766,
+      "My_kNm": 3.033,
+      "Mz_kNm": 0.207,
+      "Mmax_flector_kNm": 3.033
+    },
+    {
+      "elementTag": 23,
+      "type": "muro",
+      "iNode": 23,
+      "jNode": 1023,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=1822, Y=5965)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.052,
+        "Vz": -0.712,
+        "My": 2.819,
+        "Mz": -0.207
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.052,
+        "Vz": 0.712,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.052,
+      "Vz_kN": -0.712,
+      "My_kNm": 2.819,
+      "Mz_kNm": 0.207,
+      "Mmax_flector_kNm": 2.819
+    },
+    {
+      "elementTag": 24,
+      "type": "muro",
+      "iNode": 24,
+      "jNode": 1024,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=2203, Y=6470)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.051,
+        "Vz": -0.678,
+        "My": 2.685,
+        "Mz": -0.203
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.051,
+        "Vz": 0.678,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.051,
+      "Vz_kN": -0.678,
+      "My_kNm": 2.685,
+      "Mz_kNm": 0.203,
+      "Mmax_flector_kNm": 2.685
+    },
+    {
+      "elementTag": 25,
+      "type": "muro",
+      "iNode": 25,
+      "jNode": 1025,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=2347, Y=7276)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.051,
+        "Vz": -0.624,
+        "My": 2.472,
+        "Mz": -0.202
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.051,
+        "Vz": 0.624,
+        "My": 0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.051,
+      "Vz_kN": -0.624,
+      "My_kNm": 2.472,
+      "Mz_kNm": 0.202,
+      "Mmax_flector_kNm": 2.472
+    },
+    {
+      "elementTag": 26,
+      "type": "columna",
+      "iNode": 26,
+      "jNode": 1026,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje G-3",
+      "extremo_i": {
+        "P": 344.465,
+        "Vy": -50.68,
+        "Vz": -2.669,
+        "My": 6.026,
+        "Mz": -70.835
+      },
+      "extremo_j": {
+        "P": -344.465,
+        "Vy": 50.68,
+        "Vz": 2.669,
+        "My": 4.541,
+        "Mz": -129.86
+      },
+      "P_kN": 344.465,
+      "Vy_kN": -50.68,
+      "Vz_kN": -2.669,
+      "My_kNm": 6.026,
+      "Mz_kNm": 129.86,
+      "Mmax_flector_kNm": 129.86
+    },
+    {
+      "elementTag": 27,
+      "type": "columna",
+      "iNode": 27,
+      "jNode": 1027,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje G-2",
+      "extremo_i": {
+        "P": 854.386,
+        "Vy": -27.854,
+        "Vz": -2.131,
+        "My": 5.163,
+        "Mz": -40.703
+      },
+      "extremo_j": {
+        "P": -854.386,
+        "Vy": 27.854,
+        "Vz": 2.131,
+        "My": 3.276,
+        "Mz": -69.597
+      },
+      "P_kN": 854.386,
+      "Vy_kN": -27.854,
+      "Vz_kN": -2.131,
+      "My_kNm": 5.163,
+      "Mz_kNm": 69.597,
+      "Mmax_flector_kNm": 69.597
+    },
+    {
+      "elementTag": 28,
+      "type": "columna",
+      "iNode": 28,
+      "jNode": 1028,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje G-1",
+      "extremo_i": {
+        "P": 434.222,
+        "Vy": 83.0,
+        "Vz": -1.974,
+        "My": 4.768,
+        "Mz": 105.623
+      },
+      "extremo_j": {
+        "P": -434.222,
+        "Vy": -83.0,
+        "Vz": 1.974,
+        "My": 3.05,
+        "Mz": 223.056
+      },
+      "P_kN": 434.222,
+      "Vy_kN": 83.0,
+      "Vz_kN": -1.974,
+      "My_kNm": 4.768,
+      "Mz_kNm": 223.056,
+      "Mmax_flector_kNm": 223.056
+    },
+    {
+      "elementTag": 29,
+      "type": "muro",
+      "iNode": 29,
+      "jNode": 1029,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=2942, Y=6880)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.049,
+        "Vz": -0.651,
+        "My": 2.577,
+        "Mz": -0.195
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.049,
+        "Vz": 0.651,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.049,
+      "Vz_kN": -0.651,
+      "My_kNm": 2.577,
+      "Mz_kNm": 0.195,
+      "Mmax_flector_kNm": 2.577
+    },
+    {
+      "elementTag": 30,
+      "type": "columna",
+      "iNode": 30,
+      "jNode": 1030,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje H-3",
+      "extremo_i": {
+        "P": 350.845,
+        "Vy": -50.122,
+        "Vz": 0.53,
+        "My": 1.805,
+        "Mz": -69.886
+      },
+      "extremo_j": {
+        "P": -350.845,
+        "Vy": 50.122,
+        "Vz": -0.53,
+        "My": -3.902,
+        "Mz": -128.596
+      },
+      "P_kN": 350.845,
+      "Vy_kN": -50.122,
+      "Vz_kN": 0.53,
+      "My_kNm": 3.902,
+      "Mz_kNm": 128.596,
+      "Mmax_flector_kNm": 128.596
+    },
+    {
+      "elementTag": 31,
+      "type": "columna",
+      "iNode": 31,
+      "jNode": 1031,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje H-2",
+      "extremo_i": {
+        "P": 866.344,
+        "Vy": -27.337,
+        "Vz": 3.094,
+        "My": -1.734,
+        "Mz": -39.81
+      },
+      "extremo_j": {
+        "P": -866.344,
+        "Vy": 27.337,
+        "Vz": -3.094,
+        "My": -10.519,
+        "Mz": -68.445
+      },
+      "P_kN": 866.344,
+      "Vy_kN": -27.337,
+      "Vz_kN": 3.094,
+      "My_kNm": 10.519,
+      "Mz_kNm": 68.445,
+      "Mmax_flector_kNm": 68.445
+    },
+    {
+      "elementTag": 32,
+      "type": "columna",
+      "iNode": 32,
+      "jNode": 1032,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje H-1",
+      "extremo_i": {
+        "P": 442.299,
+        "Vy": 81.811,
+        "Vz": 1.365,
+        "My": 0.36,
+        "Mz": 104.266
+      },
+      "extremo_j": {
+        "P": -442.299,
+        "Vy": -81.811,
+        "Vz": -1.365,
+        "My": -5.765,
+        "Mz": 219.707
+      },
+      "P_kN": 442.299,
+      "Vy_kN": 81.811,
+      "Vz_kN": 1.365,
+      "My_kNm": 5.765,
+      "Mz_kNm": 219.707,
+      "Mmax_flector_kNm": 219.707
+    },
+    {
+      "elementTag": 33,
+      "type": "muro",
+      "iNode": 33,
+      "jNode": 1033,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4250, Y=3576)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.046,
+        "Vz": -0.871,
+        "My": 3.451,
+        "Mz": -0.182
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.046,
+        "Vz": 0.871,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.046,
+      "Vz_kN": -0.871,
+      "My_kNm": 3.451,
+      "Mz_kNm": 0.182,
+      "Mmax_flector_kNm": 3.451
+    },
+    {
+      "elementTag": 34,
+      "type": "muro",
+      "iNode": 34,
+      "jNode": 1034,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4250, Y=4048)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.046,
+        "Vz": -0.84,
+        "My": 3.326,
+        "Mz": -0.182
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.046,
+        "Vz": 0.84,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.046,
+      "Vz_kN": -0.84,
+      "My_kNm": 3.326,
+      "Mz_kNm": 0.182,
+      "Mmax_flector_kNm": 3.326
+    },
+    {
+      "elementTag": 35,
+      "type": "muro",
+      "iNode": 35,
+      "jNode": 1035,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4250, Y=4519)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.046,
+        "Vz": -0.808,
+        "My": 3.202,
+        "Mz": -0.182
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.046,
+        "Vz": 0.808,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.046,
+      "Vz_kN": -0.808,
+      "My_kNm": 3.202,
+      "Mz_kNm": 0.182,
+      "Mmax_flector_kNm": 3.202
+    },
+    {
+      "elementTag": 36,
+      "type": "muro",
+      "iNode": 36,
+      "jNode": 1036,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4302, Y=6430)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.046,
+        "Vz": -0.681,
+        "My": 2.696,
+        "Mz": -0.181
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.046,
+        "Vz": 0.681,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.046,
+      "Vz_kN": -0.681,
+      "My_kNm": 2.696,
+      "Mz_kNm": 0.181,
+      "Mmax_flector_kNm": 2.696
+    },
+    {
+      "elementTag": 37,
+      "type": "muro",
+      "iNode": 37,
+      "jNode": 1037,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4510, Y=6623)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.045,
+        "Vz": -0.668,
+        "My": 2.645,
+        "Mz": -0.179
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.045,
+        "Vz": 0.668,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.045,
+      "Vz_kN": -0.668,
+      "My_kNm": 2.645,
+      "Mz_kNm": 0.179,
+      "Mmax_flector_kNm": 2.645
+    },
+    {
+      "elementTag": 38,
+      "type": "muro",
+      "iNode": 38,
+      "jNode": 1038,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4701, Y=7033)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.045,
+        "Vz": -0.641,
+        "My": 2.537,
+        "Mz": -0.177
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.045,
+        "Vz": 0.641,
+        "My": 0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.045,
+      "Vz_kN": -0.641,
+      "My_kNm": 2.537,
+      "Mz_kNm": 0.177,
+      "Mmax_flector_kNm": 2.537
+    },
+    {
+      "elementTag": 39,
+      "type": "muro",
+      "iNode": 39,
+      "jNode": 1039,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4752, Y=6463)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.679,
+        "My": 2.687,
+        "Mz": -0.176
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.679,
+        "My": 0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.679,
+      "My_kNm": 2.687,
+      "Mz_kNm": 0.176,
+      "Mmax_flector_kNm": 2.687
+    },
+    {
+      "elementTag": 40,
+      "type": "columna",
+      "iNode": 40,
+      "jNode": 1040,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Apoyo mural nivel 3 (X=4812)",
+      "extremo_i": {
+        "P": 272.108,
+        "Vy": -37.14,
+        "Vz": -23.373,
+        "My": 33.357,
+        "Mz": -52.536
+      },
+      "extremo_j": {
+        "P": -272.108,
+        "Vy": 37.14,
+        "Vz": 23.373,
+        "My": 59.202,
+        "Mz": -94.538
+      },
+      "P_kN": 272.108,
+      "Vy_kN": -37.14,
+      "Vz_kN": -23.373,
+      "My_kNm": 59.202,
+      "Mz_kNm": 94.538,
+      "Mmax_flector_kNm": 94.538
+    },
+    {
+      "elementTag": 41,
+      "type": "columna",
+      "iNode": 41,
+      "jNode": 1041,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Apoyo mural nivel 2 (X=4812)",
+      "extremo_i": {
+        "P": 664.901,
+        "Vy": -20.795,
+        "Vz": -43.313,
+        "My": 59.523,
+        "Mz": -30.961
+      },
+      "extremo_j": {
+        "P": -664.901,
+        "Vy": 20.795,
+        "Vz": 43.313,
+        "My": 111.995,
+        "Mz": -51.388
+      },
+      "P_kN": 664.901,
+      "Vy_kN": -20.795,
+      "Vz_kN": -43.313,
+      "My_kNm": 111.995,
+      "Mz_kNm": 51.388,
+      "Mmax_flector_kNm": 111.995
+    },
+    {
+      "elementTag": 42,
+      "type": "columna",
+      "iNode": 42,
+      "jNode": 1042,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Apoyo mural nivel 1 (X=4812)",
+      "extremo_i": {
+        "P": 341.819,
+        "Vy": 58.415,
+        "Vz": -26.875,
+        "My": 37.637,
+        "Mz": 73.597
+      },
+      "extremo_j": {
+        "P": -341.819,
+        "Vy": -58.415,
+        "Vz": 26.875,
+        "My": 68.789,
+        "Mz": 157.728
+      },
+      "P_kN": 341.819,
+      "Vy_kN": 58.415,
+      "Vz_kN": -26.875,
+      "My_kNm": 68.789,
+      "Mz_kNm": 157.728,
+      "Mmax_flector_kNm": 157.728
+    },
+    {
+      "elementTag": 43,
+      "type": "muro",
+      "iNode": 43,
+      "jNode": 1043,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4817, Y=4268)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.825,
+        "My": 3.268,
+        "Mz": -0.176
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.825,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.825,
+      "My_kNm": 3.268,
+      "Mz_kNm": 0.176,
+      "Mmax_flector_kNm": 3.268
+    },
+    {
+      "elementTag": 44,
+      "type": "muro",
+      "iNode": 44,
+      "jNode": 1044,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4817, Y=5158)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.766,
+        "My": 3.033,
+        "Mz": -0.176
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.766,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.766,
+      "My_kNm": 3.033,
+      "Mz_kNm": 0.176,
+      "Mmax_flector_kNm": 3.033
+    },
+    {
+      "elementTag": 45,
+      "type": "muro",
+      "iNode": 45,
+      "jNode": 1045,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4817, Y=5965)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.712,
+        "My": 2.819,
+        "Mz": -0.176
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.712,
+        "My": -0.0,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.712,
+      "My_kNm": 2.819,
+      "Mz_kNm": 0.176,
+      "Mmax_flector_kNm": 2.819
+    },
+    {
+      "elementTag": 46,
+      "type": "muro",
+      "iNode": 46,
+      "jNode": 1046,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=4837, Y=4748)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.793,
+        "My": 3.141,
+        "Mz": -0.175
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.793,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.793,
+      "My_kNm": 3.141,
+      "Mz_kNm": 0.175,
+      "Mmax_flector_kNm": 3.141
+    },
+    {
+      "elementTag": 47,
+      "type": "muro",
+      "iNode": 47,
+      "jNode": 1047,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=5052, Y=6430)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.044,
+        "Vz": -0.681,
+        "My": 2.696,
+        "Mz": -0.173
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.044,
+        "Vz": 0.681,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.044,
+      "Vz_kN": -0.681,
+      "My_kNm": 2.696,
+      "Mz_kNm": 0.173,
+      "Mmax_flector_kNm": 2.696
+    },
+    {
+      "elementTag": 48,
+      "type": "muro",
+      "iNode": 48,
+      "jNode": 1048,
+      "sectionTag": 200,
+      "plano_fuente": "Cortes/Muros (2017-67-600) - V.S.I. 20/40",
+      "descripcion": "Muro/nucleo (X=5204, Y=7008)",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.043,
+        "Vz": -0.642,
+        "My": 2.543,
+        "Mz": -0.171
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.043,
+        "Vz": 0.642,
+        "My": -0.0,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.043,
+      "Vz_kN": -0.642,
+      "My_kNm": 2.543,
+      "Mz_kNm": 0.171,
+      "Mmax_flector_kNm": 2.543
+    },
+    {
+      "elementTag": 49,
+      "type": "columna",
+      "iNode": 49,
+      "jNode": 1049,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje I'-3",
+      "extremo_i": {
+        "P": 70.386,
+        "Vy": -17.398,
+        "Vz": -6.612,
+        "My": 11.231,
+        "Mz": -26.373
+      },
+      "extremo_j": {
+        "P": -70.386,
+        "Vy": 17.398,
+        "Vz": 6.612,
+        "My": 14.951,
+        "Mz": -42.523
+      },
+      "P_kN": 70.386,
+      "Vy_kN": -17.398,
+      "Vz_kN": -6.612,
+      "My_kNm": 14.951,
+      "Mz_kNm": 42.523,
+      "Mmax_flector_kNm": 42.523
+    },
+    {
+      "elementTag": 50,
+      "type": "columna",
+      "iNode": 50,
+      "jNode": 1050,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje I'-2",
+      "extremo_i": {
+        "P": 185.018,
+        "Vy": -11.16,
+        "Vz": -11.383,
+        "My": 17.376,
+        "Mz": -18.138
+      },
+      "extremo_j": {
+        "P": -185.018,
+        "Vy": 11.16,
+        "Vz": 11.383,
+        "My": 27.701,
+        "Mz": -26.054
+      },
+      "P_kN": 185.018,
+      "Vy_kN": -11.16,
+      "Vz_kN": -11.383,
+      "My_kNm": 27.701,
+      "Mz_kNm": 26.054,
+      "Mmax_flector_kNm": 27.701
+    },
+    {
+      "elementTag": 51,
+      "type": "columna",
+      "iNode": 51,
+      "jNode": 1051,
+      "sectionTag": 100,
+      "plano_fuente": "Elevación Eje 1-1'/2/3-3' (2017-67-300..303) - P. 70x70",
+      "descripcion": "Columna eje I'-1",
+      "extremo_i": {
+        "P": 88.573,
+        "Vy": 24.204,
+        "Vz": -7.176,
+        "My": 11.634,
+        "Mz": 28.542
+      },
+      "extremo_j": {
+        "P": -88.573,
+        "Vy": -24.204,
+        "Vz": 7.176,
+        "My": 16.782,
+        "Mz": 67.306
+      },
+      "P_kN": 88.573,
+      "Vy_kN": 24.204,
+      "Vz_kN": -7.176,
+      "My_kNm": 16.782,
+      "Mz_kNm": 67.306,
+      "Mmax_flector_kNm": 67.306
+    },
+    {
+      "elementTag": 2000,
+      "type": "viga",
+      "iNode": 1004,
+      "jNode": 1019,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=18.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 84.367,
+        "My": -98.132,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 99.63,
+        "My": 174.458,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 84.367,
+      "My_kNm": 174.458,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 174.458
+    },
+    {
+      "elementTag": 2001,
+      "type": "viga",
+      "iNode": 1019,
+      "jNode": 1026,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=18.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 92.305,
+        "My": -156.734,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 91.692,
+        "My": 153.668,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 92.305,
+      "My_kNm": 156.734,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 156.734
+    },
+    {
+      "elementTag": 2002,
+      "type": "viga",
+      "iNode": 1026,
+      "jNode": 1030,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=18.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 90.907,
+        "My": -148.99,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 93.062,
+        "My": 159.763,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 90.907,
+      "My_kNm": 159.763,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 159.763
+    },
+    {
+      "elementTag": 2003,
+      "type": "viga",
+      "iNode": 1030,
+      "jNode": 1040,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=18.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 95.715,
+        "My": -162.671,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 90.093,
+        "My": 134.278,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 95.715,
+      "My_kNm": 162.671,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 162.671
+    },
+    {
+      "elementTag": 2004,
+      "type": "viga",
+      "iNode": 1040,
+      "jNode": 1049,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=5.0 m, A_trib=9.062 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 59.53,
+        "My": -83.675,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 30.609,
+        "My": 12.818,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 59.53,
+      "My_kNm": 83.675,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 83.675
+    },
+    {
+      "elementTag": 2010,
+      "type": "viga",
+      "iNode": 1005,
+      "jNode": 1020,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=40.375 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 190.839,
+        "My": -240.544,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 218.967,
+        "My": 381.184,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 190.839,
+      "My_kNm": 381.184,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 381.184
+    },
+    {
+      "elementTag": 2011,
+      "type": "viga",
+      "iNode": 1020,
+      "jNode": 1027,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=40.375 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 206.151,
+        "My": -350.871,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 203.655,
+        "My": 338.391,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 206.151,
+      "My_kNm": 350.871,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 350.871
+    },
+    {
+      "elementTag": 2012,
+      "type": "viga",
+      "iNode": 1027,
+      "jNode": 1031,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=40.375 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 203.311,
+        "My": -335.29,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 206.496,
+        "My": 351.215,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 203.311,
+      "My_kNm": 351.215,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 351.215
+    },
+    {
+      "elementTag": 2013,
+      "type": "viga",
+      "iNode": 1031,
+      "jNode": 1041,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=40.375 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 212.977,
+        "My": -363.427,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 200.928,
+        "My": 302.581,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 212.977,
+      "My_kNm": 363.427,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 363.427
+    },
+    {
+      "elementTag": 2014,
+      "type": "viga",
+      "iNode": 1041,
+      "jNode": 1050,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=5.0 m, A_trib=20.188 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 130.034,
+        "My": -176.38,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 70.776,
+        "My": 31.196,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 130.034,
+      "My_kNm": 176.38,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 176.38
+    },
+    {
+      "elementTag": 2020,
+      "type": "viga",
+      "iNode": 1006,
+      "jNode": 1021,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=22.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 103.889,
+        "My": -123.478,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 121.949,
+        "My": 213.777,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 103.889,
+      "My_kNm": 213.777,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 213.777
+    },
+    {
+      "elementTag": 2021,
+      "type": "viga",
+      "iNode": 1021,
+      "jNode": 1028,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=22.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 113.689,
+        "My": -194.252,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 112.148,
+        "My": 186.549,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 113.689,
+      "My_kNm": 194.252,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 194.252
+    },
+    {
+      "elementTag": 2022,
+      "type": "viga",
+      "iNode": 1028,
+      "jNode": 1032,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=22.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 111.747,
+        "My": -183.454,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 114.091,
+        "My": 195.175,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 111.747,
+      "My_kNm": 195.175,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 195.175
+    },
+    {
+      "elementTag": 2023,
+      "type": "viga",
+      "iNode": 1032,
+      "jNode": 1042,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=10.0 m, A_trib=22.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 117.535,
+        "My": -200.24,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 110.561,
+        "My": 165.021,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 117.535,
+      "My_kNm": 200.24,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 200.24
+    },
+    {
+      "elementTag": 2024,
+      "type": "viga",
+      "iNode": 1042,
+      "jNode": 1051,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir X, L=5.0 m, A_trib=11.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 72.967,
+        "My": -101.841,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 37.693,
+        "My": 15.42,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 72.967,
+      "My_kNm": 101.841,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 101.841
+    },
+    {
+      "elementTag": 3000,
+      "type": "viga",
+      "iNode": 1004,
+      "jNode": 1005,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=18.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 80.978,
+        "My": -65.978,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 102.99,
+        "My": 145.772,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 80.978,
+      "My_kNm": 145.772,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 145.772
+    },
+    {
+      "elementTag": 3001,
+      "type": "viga",
+      "iNode": 1005,
+      "jNode": 1006,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=22.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 121.884,
+        "My": -184.863,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 103.954,
+        "My": 105.074,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 121.884,
+      "My_kNm": 184.863,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 184.863
+    },
+    {
+      "elementTag": 3010,
+      "type": "viga",
+      "iNode": 1019,
+      "jNode": 1020,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=36.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 167.151,
+        "My": -141.383,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 209.667,
+        "My": 299.223,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 167.151,
+      "My_kNm": 299.223,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 299.223
+    },
+    {
+      "elementTag": 3011,
+      "type": "viga",
+      "iNode": 1020,
+      "jNode": 1021,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=44.5 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 241.332,
+        "My": -364.251,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 210.343,
+        "My": 226.352,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 241.332,
+      "My_kNm": 364.251,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 364.251
+    },
+    {
+      "elementTag": 3020,
+      "type": "viga",
+      "iNode": 1026,
+      "jNode": 1027,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=36.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 161.866,
+        "My": -131.644,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 206.071,
+        "My": 291.889,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 161.866,
+      "My_kNm": 291.889,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 291.889
+    },
+    {
+      "elementTag": 3021,
+      "type": "viga",
+      "iNode": 1027,
+      "jNode": 1028,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=44.5 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 241.348,
+        "My": -362.364,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 210.327,
+        "My": 224.317,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 241.348,
+      "My_kNm": 362.364,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 362.364
+    },
+    {
+      "elementTag": 3030,
+      "type": "viga",
+      "iNode": 1030,
+      "jNode": 1031,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=36.25 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 162.068,
+        "My": -132.396,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 205.87,
+        "My": 291.176,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 162.068,
+      "My_kNm": 291.176,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 291.176
+    },
+    {
+      "elementTag": 3031,
+      "type": "viga",
+      "iNode": 1031,
+      "jNode": 1032,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=44.5 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 241.002,
+        "My": -361.463,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 210.673,
+        "My": 226.499,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 241.002,
+      "My_kNm": 361.463,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 361.463
+    },
+    {
+      "elementTag": 3040,
+      "type": "viga",
+      "iNode": 1040,
+      "jNode": 1041,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=27.188 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 122.484,
+        "My": -103.017,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 153.474,
+        "My": 215.354,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 122.484,
+      "My_kNm": 215.354,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 215.354
+    },
+    {
+      "elementTag": 3041,
+      "type": "viga",
+      "iNode": 1041,
+      "jNode": 1042,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=33.375 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 180.465,
+        "My": -270.818,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 158.291,
+        "My": 172.146,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 180.465,
+      "My_kNm": 270.818,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 270.818
+    },
+    {
+      "elementTag": 3050,
+      "type": "viga",
+      "iNode": 1049,
+      "jNode": 1050,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=7.25 m, A_trib=9.062 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 39.777,
+        "My": -30.172,
+        "Mz": -0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 52.203,
+        "My": 75.215,
+        "Mz": -0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": -0.0,
+      "Vz_kN": 39.777,
+      "My_kNm": 75.215,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 75.215
+    },
+    {
+      "elementTag": 3051,
+      "type": "viga",
+      "iNode": 1050,
+      "jNode": 1051,
+      "sectionTag": 300,
+      "plano_fuente": "Elevaciones de Vigas (2017-67-400) - V. 60/80",
+      "descripcion": "Viga dir Y, L=8.9 m, A_trib=11.125 m²",
+      "extremo_i": {
+        "P": 0.0,
+        "Vy": 0.0,
+        "Vz": 62.039,
+        "My": -95.292,
+        "Mz": 0.0
+      },
+      "extremo_j": {
+        "P": 0.0,
+        "Vy": -0.0,
+        "Vz": 50.879,
+        "My": 45.63,
+        "Mz": 0.0
+      },
+      "P_kN": 0.0,
+      "Vy_kN": 0.0,
+      "Vz_kN": 62.039,
+      "My_kNm": 95.292,
+      "Mz_kNm": 0.0,
+      "Mmax_flector_kNm": 95.292
+    }
+  ]
+}
